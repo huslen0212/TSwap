@@ -1,9 +1,13 @@
-body {
-  font-family: Arial, sans-serif;
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
   background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -12,11 +16,13 @@ header {
   padding: 15px 30px;
   box-shadow: 0 2px 4px #202279;
 }
+
 nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
 }
+
 nav ul li a {
   text-decoration: none;
   color:#202279;
@@ -24,6 +30,7 @@ nav ul li a {
   display: flex;
   justify-content: space-around;
 }
+
 .login-btn {
   background: #202279;
   color: #fff;
@@ -32,6 +39,7 @@ nav ul li a {
   cursor: pointer;
   border-radius: 5px;
 }
+
 .login-btn a {
   color: white;
   text-decoration: none;
@@ -41,20 +49,24 @@ main {
   padding: 20px;
   text-align: center;
 }
+
 .search-bar {
   display: flex;
   justify-content: center;
   margin: 20px 0;
 }
+
 .search-bar input {
   padding: 10px;
   width: 300px;
   border: 1px solid #d7d7d7;
   border-radius: 5px;
 }
+
 .categories {
   margin: 20px 0;
 }
+
 .categories button {
   padding: 10px 15px;
   margin: 5px;
@@ -64,12 +76,14 @@ main {
   border-radius: 5px;
   cursor: pointer;
 }
+
 .ticket-list {
   display: flex;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
 }
+
 .ticket {
   background: #fff;
   padding: 15px;
@@ -78,17 +92,20 @@ main {
   text-align: center;
   width: 250px;
 }
+
 .ticket img {
   width: 100%;
   border-radius: 10px;
 }
+
 footer {
-  background:#202279;
+  background: #202279;
   color: #fff;
   text-align: center;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: auto;
 }
+
 h1, h2{
 color: #1a1b62;
 }
