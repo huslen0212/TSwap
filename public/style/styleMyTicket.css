@@ -1,4 +1,3 @@
-/* Ensure html and body take up the full height of the viewport */
 html, body {
     height: 100%;
     margin: 0;
@@ -9,7 +8,6 @@ html, body {
     flex-direction: column;
 }
 
-/* Header styles */
 header {
     display: flex;
     justify-content: space-between;
@@ -45,13 +43,12 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Footer styles */
 footer {
     background: #202279;
     color: #fff;
     text-align: center;
     padding: 20px;
-    margin-top: auto; /* Push footer to the bottom */
+    margin-top: auto;
 }
 
 h1, h2 {
