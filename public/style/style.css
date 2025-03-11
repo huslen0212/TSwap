@@ -32,6 +32,11 @@ nav ul li a {
   cursor: pointer;
   border-radius: 5px;
 }
+.login-btn a {
+  color: white;
+  text-decoration: none;
+}
+
 main {
   padding: 20px;
   text-align: center;
