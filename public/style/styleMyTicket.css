@@ -52,5 +52,83 @@ footer {
 }
 
 h1, h2 {
+    position: relative;
+    text-align: center;
     color: #1a1b62;
+}
+
+.ticket-list {
+    justify-content: space-around;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.ticket-container {
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+}
+
+.ticket-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.ticket-info {
+    padding: 15px;
+}
+
+h2 {
+    color: #1a1b62;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+.ticket-price {
+    font-size: 16px;
+    font-weight: bold;
+ 
+}
+
+.ticket-description {
+    margin-top: 10px;
+}
+
+.ticket-description label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.ticket-description textarea {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    resize: none;
+    background: #f9f9f9;
+}
+
+.delete-button {
+    width: 100%;
+    background-color: #1a1b62;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.delete-button:hover {
+    background-color: #0056b3;
 }
