@@ -121,6 +121,10 @@ main {
   text-decoration: none;
 }
 
+.ticket-list a:visited {
+  color: inherit; /* Ensures visited links don't change color */
+}
+
 .ticket p{
   color: #808080;
 }
