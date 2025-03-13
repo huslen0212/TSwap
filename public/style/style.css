@@ -13,7 +13,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background: #fff;
-  padding: 15px 30px;
+  padding: 0 30px;
   box-shadow: 0 2px 4px #202279;
 }
 
@@ -91,7 +91,7 @@ main {
   padding: 10px 15px;
   margin: 5px;
   border: none;
-  background: #f0c3a7;
+  background: #D9D9D9;
   color: #202279;
   border-radius: 5px;
   cursor: pointer;
@@ -100,7 +100,7 @@ main {
 .ticket-list {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
   flex-wrap: wrap;
 }
 
@@ -110,14 +110,16 @@ main {
   border-radius: 10px;
   box-shadow: 0 2px 4px #202279;
   text-align: center;
-  width: 250px;
+  width: 380px;
 }
 
 .ticket img {
   width: 100%;
   border-radius: 10px;
 }
-
+.ticket p{
+  color: #808080;
+}
 footer {
   background: #202279;
   color: #fff;

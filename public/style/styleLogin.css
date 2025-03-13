@@ -78,10 +78,11 @@ button:hover {
 
 p {
     margin-top: 10px;
+    color: #142B68;
 }
 
 a {
     margin-left: 120px;
     color: #142B68;
-    text-decoration: none;
+    text-decoration: underline;
 }

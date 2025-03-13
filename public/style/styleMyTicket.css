@@ -13,10 +13,12 @@ header {
     justify-content: space-between;
     align-items: center;
     background: #fff;
-    padding: 15px 30px;
+    padding: 0 30px;
     box-shadow: 0 2px 4px #202279;
 }
-
+main {
+    padding: 20px;
+}
 nav ul {
     list-style: none;
     display: flex;
@@ -57,8 +59,9 @@ h1, h2 {
     color: #1a1b62;
 }
 
+
 .ticket-list {
-    justify-content: space-around;
+    justify-content: space-evenly;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -70,16 +73,18 @@ h1, h2 {
     border-radius: 10px;
     overflow: hidden;
     width: 350px;
+    padding: 15px;
 }
 
 .ticket-image {
     width: 100%;
     height: 150px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .ticket-info {
     padding: 15px;
+    color: #1a1b62;
 }
 
 h2 {
@@ -87,8 +92,6 @@ h2 {
     font-size: 18px;
     margin-bottom: 10px;
 }
-
-
 
 .ticket-price {
     font-size: 16px;
@@ -126,9 +129,25 @@ h2 {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 5px;
+}
+
+.edit-button {
+    width: 100%;
+    background-color: #1a1b62;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 .delete-button:hover {
+    background-color: #0056b3;
+}
+
+.edit-button:hover {
     background-color: #0056b3;
 }
