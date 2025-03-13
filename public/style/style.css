@@ -122,7 +122,7 @@ main {
 }
 
 .ticket-list a:visited {
-  color: inherit; /* Ensures visited links don't change color */
+  color: inherit;
 }
 
 .ticket p{
