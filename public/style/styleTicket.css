@@ -16,9 +16,12 @@ header {
     padding: 0 30px;
     box-shadow: 0 2px 4px #202279;
 }
+
 main {
     padding: 20px;
+    flex: 1;
 }
+
 nav ul {
     list-style: none;
     display: flex;
@@ -53,13 +56,92 @@ footer {
     margin-top: auto;
 }
 
+.ticket-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ticket-container {
+    position: relative;
+    color: #1a1b62;
+    max-width: 400px;
+    width: 100%;
+}
+
+.ticket-image {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.save-button, .payment-button {
+    width: 100%;
+    background-color: #1a1b62;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.ticket-description {
+    max-width: 600px;
+    width: 100%;
+}
+
+.ticket-description textarea {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    resize: none;
+    background: #f9f9f9;
+}
+
+.ticket-description label {
+    color: #1a1b62; /* Change this to your desired color */
+}
+
+h3 {
+    font-weight: normal;
+    color: #1a1b62;
+}
+
 h1 {
     color: #202279;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 h2 {
     position: relative;
     text-align: center;
     color: #1a1b62;
+}
+
+.offer-section textarea {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    resize: none;
+    margin-top: 10px;
+}
+
+.comment-button {
+    background-color: #1a1b62;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
 }
