@@ -94,8 +94,9 @@ footer {
 }
 
 .ticket-description textarea {
+    display: flex;
     font-family: Arial, sans-serif;
-    width: 100%;
+    width: 500px;
     height: 100px; 
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -125,7 +126,7 @@ h2 {
 }
 
 .offer-section textarea {
-    width: 100%;
+    width: 500px;
     height: 60px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -143,5 +144,5 @@ h2 {
     font-size: 16px;
     cursor: pointer;
     margin-top: 10px;
-    width: 100%;
+    width: 510px;
 }
