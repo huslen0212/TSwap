@@ -44,7 +44,7 @@ header {
   display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {color: rgb(255, 112, 34);}
 
 .show {display: block;}
 
