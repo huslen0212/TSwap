@@ -110,7 +110,7 @@ html, body {
     margin-bottom: 10px; 
   }
   
-  a img {
+  main a img {
     height: 40px; 
     vertical-align: middle;
     margin-right: 10px; 
@@ -127,6 +127,7 @@ html, body {
   margin: 15px 20px;
   padding: 20px;
   width:600px;
+  height:100%;
   }
   .charhis p {
   padding: 20px;
@@ -136,4 +137,6 @@ html, body {
     display: flex;
     justify-content: center;
   }
-  
+   .sanamj{
+    color: grey;
+  }
