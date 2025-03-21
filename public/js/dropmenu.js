@@ -12,3 +12,8 @@ function dropmenu(){
             }
         }
     }
+    function toggleMenu() {
+      let menu = document.querySelector(".menu nav ul");
+      menu.classList.toggle("show");
+  }
+  
