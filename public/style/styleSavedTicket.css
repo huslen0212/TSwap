@@ -61,7 +61,19 @@ nav ul li a {
     color: #202279;
     font-size: 16px;
 }
-
+.balance{
+    background: #202279;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .balance img{
+    width: 17px;
+    height: 17px;
+    padding-right: 5px;
+  }
 .login-btn {
     background: #202279;
     color: #fff;
