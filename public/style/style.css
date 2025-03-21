@@ -17,6 +17,10 @@ header {
   box-shadow: 0 2px 4px #202279;
 }
 
+.menu-toggle {
+  display: none;
+}
+
 .menu{
   display: flex;
   justify-items: end;
@@ -181,15 +185,19 @@ color: #1a1b62;
 }
 
 @media (max-width: 768px) {
+  .header-button{
+    display: flex;
+    justify-content: end;
+  }
   header {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 10px;
   }
 
   .menu nav ul {
     display: none; 
-    flex-direction: column;
+    flex-direction: row;
     position: absolute;
     top: 100px;
     right: 0;
@@ -216,9 +224,12 @@ color: #1a1b62;
     height: 80px;
   }
 
-
   .balance, .login-btn {
     width: 100%;
+
+  }
+  .balance b {
+    display: none;
   }
 
   .search-container input[type="text"] {
